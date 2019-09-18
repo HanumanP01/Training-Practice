@@ -1,6 +1,6 @@
 [merge]
 	tool = meld
-[mergetool "meld']
+[mergetools "meld']
 	path = C:/Program Files (x86)/Meld/meld/Meld.exe
 [mergetool]
 	prompt = false
