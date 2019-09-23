@@ -1,8 +1,5 @@
-#bin/bash
+# This is first program 
 
-d = `date + %h%m%s`
-pd = `date + %dd%mm%yyyy
+echo "Please give A B C D number"
 
-echo '$d and $pd'
-cat /opt/sdf/log/af02_diag*current | grep $d | cut -c1-10 | sort | uniq -c
-
+echo `expr $1 \* \($2 + $4\) / $3`
